@@ -15,6 +15,7 @@ lib/Perl6ish/Array.pm
 lib/Perl6ish/Autobox.pm
 lib/Perl6ish/Hash.pm
 lib/Perl6ish/String.pm
+lib/Perl6ish/Syntax/constant.pm
 lib/Perl6ish/Syntax/DotMethod.pm
 lib/Perl6ish/Syntax/state.pm
 lib/Perl6ish/Syntax/temp.pm
@@ -26,8 +27,12 @@ README
 t/00_compile.t
 t/autobox-array.t
 t/example-01.t
+t/example-02.t
+t/example-03.t
+t/example-04.t
 t/simple.t
 t/syntax-dot-method.t
+t/variable-constant.t
 t/variable-state.t
 t/variable-temp.t
 xt/01_podspell.t
